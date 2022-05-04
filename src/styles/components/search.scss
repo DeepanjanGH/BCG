@@ -1,0 +1,20 @@
+.search-container {
+    position: relative;
+
+    .search-input {
+        width: 350px;
+    }
+    .list-box {
+        position: absolute;
+        top: 38px;
+        width: 350px;
+        max-height: 200px;
+        overflow-y: scroll;
+        border-bottom: 1px solid #00000020;
+
+        .list-group-item:last-child {
+            border-bottom: none;
+        }
+
+    }
+}

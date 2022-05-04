@@ -1,0 +1,22 @@
+.header-container {
+    padding: 5px 10px;
+    box-shadow: 0px 1px 4px 0px #000000bf;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    .bcg-logo {
+        width: 120px;
+    }
+
+    .header-title {
+        color: $primary-color
+    }
+
+    .search-box {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

@@ -1,0 +1,38 @@
+.policy-data-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .form-input-row {
+    width: 45%;
+    margin-bottom: 20px;
+
+    .form-label {
+      color: $primary-color;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    .input-group {
+      position: static;
+    }
+
+    .form-control {
+      border: none;
+    }
+
+    .form-control:disabled {
+      background-color: #fff;
+    }
+  }
+
+   &.enable-form {
+    .form-control {
+        border: 1px solid #ced4da;
+      }
+  
+      .form-control:disabled {
+        background-color: #e9ecef;
+      }
+  }
+}

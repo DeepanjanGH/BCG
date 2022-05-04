@@ -1,0 +1,18 @@
+.body-container {
+    height: calc(100vh - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .body-tab {
+        margin: 10px 0px;
+    }
+
+    .nav-link {
+        color: $primary-color;
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: $primary-color;
+    }
+}

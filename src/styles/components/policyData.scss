@@ -1,0 +1,31 @@
+.policy-data-container {
+  height: 500px;
+  width: 80%;
+  min-width: 1000px;
+  margin: auto;
+  overflow-y: scroll;
+
+  .card-title {
+    background: linear-gradient(
+      90deg,
+      rgba(23, 123, 87, 1) 0%,
+      rgba(23, 123, 81, 0.9654455532212886) 53%,
+      rgba(255, 255, 255, 1) 100%
+    );
+    padding: 1rem 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.card {
+  position: static;
+}
+.card-body {
+  position: static;
+  .search-text {
+    text-align: center;
+  }
+}
